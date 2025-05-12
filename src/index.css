@@ -1,0 +1,66 @@
+#root {
+   padding: 20px 100px 0 100px;
+}
+
+#root .container {
+   display: flex;
+}
+
+
+@media (max-width : 450px) {
+   #root {
+      padding: 10px;
+      overflow-x: hidden;
+   }
+
+   h1 {
+      font-size: 45px;
+   }
+   .container {
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: wrap;
+      width: 95%;
+      font-size: 30px;
+   }
+
+   .sidebar {
+      width: 100%;
+   }
+
+   .sidebar div {
+      display:  flex;
+      width: 100%;
+   }
+
+   .sidebar div button {
+      font-size: 25px;
+      height: 40px;
+   }
+
+   .canvas {
+      height: 70vh;
+      margin-left: 0;
+   }
+    .canvas div {
+      padding: 10px;
+    }
+
+   .canvas .button,.text {
+      transform: scale(1.5);
+   }
+   .properties { 
+      width: 100%;
+      height: 80vh;
+      margin-left: 0;
+   }
+   
+   .properties input {
+      height: 40px;
+      font-size: 25px;
+      border: 2px solid black;
+   } 
+   .properties textarea {
+      font-size: 15px;
+   }
+}
