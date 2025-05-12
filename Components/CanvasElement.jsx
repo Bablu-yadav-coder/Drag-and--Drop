@@ -15,7 +15,6 @@ export function CanvasElement({ element, onSelect, isSelected}) {
     }));
 
     let styles = { 
-        border : isDragging ?  "5px solid blue" : "0",
         opacity : isDragging ? 0.5: 1,
         padding : 5,
         margin : "5px",
