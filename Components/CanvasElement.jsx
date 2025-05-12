@@ -19,7 +19,7 @@ export function CanvasElement({ element, onSelect, isSelected}) {
         opacity : isDragging ? 0.5: 1,
         padding : 5,
         margin : "5px",
-        Border : isSelected ? "5px solid blue" : " 2px solid black",
+        border : isSelected ? "5px solid blue" : " 2px solid black",
         borderRadius : 10,
         fontSize : element.props.fontSize,
         color : element.props.color,
